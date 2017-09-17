@@ -19,14 +19,26 @@ p {
   color: #26a69a;
 }
 
+.aboutME{
+  height: 400px;
+}
+
+
 .parallax-container {
-  min-height: 100vh;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
+  }
+
+.paralax1{
+  min-height: 100vh;
+}
+
+  .paralax1 .section{
     padding-top: 20%;
   }
 .image-container{
@@ -35,10 +47,11 @@ p {
   align-items: center;
 }
 .imagen{
-  border-radius: 50%;
-  max-width: 300px;
-  max-height: 250px;
-  padding-top:;
+  /*border-radius: 59%;*/
+  /*max-width: 260px;*/
+  max-height: 320px;
+  border: 5px solid #1976D2;
+  margin: 10%;
 }
 
 @media only screen and (max-width : 992px) {

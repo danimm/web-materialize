@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Daniel Muñoz Martín - Frontend Developer</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,16 +14,18 @@
 <body>
   <nav class="blue blue darken-2" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo white-text">Daniel Muñoz Martín</a>
+      <a id="logo-container" href="#" class="brand-logo white-text scrollspy">DaniMM</a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="#">Inicio</a></li>
+        <li><a class="white-text" href="#logo-container">Inicio</a></li>
+        <li><a class="white-text" href="#aboutME">Acerca de mi</a></li>
         <li><a class="white-text" href="#">CV</a></li>
         <li><a class="white-text" href="#">Portafolio</a></li>
         <li><a class="white-text" href="#">Contacto</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav blue darken-2">
-        <li><a class="white-text" href="#">Inicio</a></li>
+        <li><a class="white-text" href="#logo-container">Inicio</a></li>
+        <li><a class="white-text" href="#aboutME">Acerca de mi</a></li>
         <li><a class="white-text" href="#">CV</a></li>
         <li><a class="white-text" href="#">Portafolio</a></li>
         <li><a class="white-text" href="#">Contacto</a></li>
@@ -32,16 +34,16 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container paralax1">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text">Frontend Web Developer</h1>
+        <h1 class="header center white-text">Web Frontend Developer</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Descubre mis proyectos personales</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light blue darken-2">Conóceme un poco más</a>
+        <div class="row center scrollspy">
+          <a href="#aboutME" id="download-button" class="btn-large waves-effect waves-light blue darken-2">Conóceme un poco más</a>
         </div>
         <br><br>
 
@@ -50,19 +52,23 @@
     <div class="parallax"><img src="images/background.min.jpg" alt="Unsplashed background"></div>
   </div>
 
-  <div class="container">
+  <div id="aboutME" class="container aboutME scrollspy">
     <div class="section">
 
       <div class="row">
         <div class="col s12 m6">
           <div class="image-container">
-            <img class="imagen" src="images/daniel.jpg" alt="Imagen Daniel">
+            <img class="imagen circle responsive-img" src="images/daniel.jpg" alt="Imagen Daniel">
           </div>
         </div>
         <div class="col s12 m6">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Acerca de mi</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe consequuntur ea non. Nobis quo dolor laudantium, harum placeat dolorum excepturi. Voluptates sint distinctio nihil excepturi animi in laboriosam quia accusantium. </div>
+          <p class="left-align light">
+          Me encanta todo lo relacionado con la tecnología desde que tengo uso de memoria. Soy técnico Superior de Sistemas, pero ultimamente estoy dirigiendo mi carrera al mundo del desarrollo Web.
+          Me apasiona crear contenido y aprender todas las nuevas tecnologías que van apareciendo en la industria.</p>
+          <p class="left-align light">Decidí crear esta web donde poder plasmar todos mis conocimientos y poder publicar <a href="#Portafolio">mi Portafolio personal</a> donde podrás ver tanto los proyectos personales que voy realizando, como ejercicios o prácticas de los nuevos Frameworks que voy descrubiendo.</p>
+        </div>
       </div>
 
     </div>
@@ -70,7 +76,7 @@
 
 
 
-  <div class="parallax-container valign-wrapper">
+  <!-- <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -78,8 +84,8 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
 
 
 
@@ -90,28 +96,25 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <h2 class="center brown-text"><i class="material-icons">code</i></h2>
+            <h5 class="center">Frontend</h5>
+            <p class="light">Especializándome en el Desarrollo de Páginas Web utilizando los estándares Web actuales y siempre intentando implementar nuevos Frameworks.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <h2 class="center brown-text"><i class="material-icons">devices</i></h2>
+            <h5 class="center">Responsive Design</h5>
+            <p class="light">Siempre buscando la mejor experiencia de usuario utilizando diseños adaptables. Los elementos se ajustan a la perfección sin importar el dispositivo o la resolución.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <h2 class="center brown-text"><i class="material-icons">laptop</i></h2>
+            <h5 class="center">100% Autodidacta</h5>
+            <p class="light">Estudio constante y de manera diaria para estar actualizado a las últimas tendencias que se están usando en el desarrollo Web moderno actual.</p>
           </div>
         </div>
       </div>
@@ -135,43 +138,37 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Acerca de</h5>
+          <p class="grey-text text-lighten-4">El propósito de esta web es tener todos proyectos personales en un mismo lugar.</p>
+            <p>Cualquier pregunta no dudes en escribirme a <a class="yellow-text" href="mailto:info@danimm.com">info@danimm.com</a></p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Enlaces</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#logo-container">Inicio</a></li>
+            <li><a class="white-text" href="#aboutME">Acerca de mi</a></li>
+            <li><a class="white-text" href="#!">Portafolio</a></li>
+            <li><a class="white-text" href="#!">CV</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Creada por <a class="brown-text text-lighten-3" href="http://materializecss.com">Daniel Muñoz</a>
+      Creada por <a class="brown-text text-lighten-3" href="mailto:info@danimm.com">Daniel Muñoz Muñoz</a>
       </div>
     </div>
   </footer>
+
 
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/app.js"></script>
 
   </body>
 </html>
