@@ -20,7 +20,8 @@ p {
 }
 
 .aboutME{
-  height: 400px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 
@@ -39,7 +40,7 @@ p {
 }
 
   .paralax1 .section{
-    padding-top: 20%;
+    /*padding-top: 20%;*/
   }
 .image-container{
   display: flex;
@@ -49,10 +50,41 @@ p {
 .imagen{
   /*border-radius: 59%;*/
   /*max-width: 260px;*/
-  max-height: 320px;
   border: 5px solid #1976D2;
-  margin: 10%;
+  max-height: 320px;
 }
+/*Skills*/
+.progress{
+  height: 10px;
+}
+.WebSkills h3.title{
+  padding: 25px;
+}
+
+.WebSkills-container{
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
+.tabs .indicator{
+  background-color: white;
+}
+.tabs .tab a{
+  color: #bbdefb;
+}
+.tabs .tab{
+  background-color: #1976D2;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active{
+  background-color: #1976D2;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+  color: white;
+}
+/*#40c4ff*/
+
+/*Skills*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -60,13 +92,13 @@ p {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 30%;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 30%;
   }
 }
 
