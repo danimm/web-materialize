@@ -20,7 +20,7 @@ p {
 }
 
 .aboutME{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 60px;
 }
 
@@ -51,7 +51,7 @@ p {
   /*border-radius: 59%;*/
   /*max-width: 260px;*/
   border: 5px solid #1976D2;
-  max-height: 320px;
+  max-height: 280px;
 }
 /*Skills*/
 .progress{
@@ -62,8 +62,8 @@ p {
 }
 
 .WebSkills-container{
-  margin-bottom: 7rem;
-  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .tabs .indicator{
@@ -86,6 +86,17 @@ p {
 
 /*Skills*/
 
+.education-container{
+  margin-top: 20px;
+}
+
+.about{
+  margin-bottom: 30px;
+}
+
+.links-footer{
+  border:none
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -102,6 +113,12 @@ p {
   }
 }
 
+@media only screen and (max-width : 372px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -111,4 +128,17 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.derecha{
+
+}
+.contenido{
+  margin-top: 20px;
+}
+.contenido p{
+  margin: 0;
+}
+.contenido .s9{
+  margin-bottom: 20px;
 }
